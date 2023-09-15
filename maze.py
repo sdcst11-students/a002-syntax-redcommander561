@@ -9,7 +9,19 @@ time.sleep(30)
 import turtle
 s = turtle.getscreen()
 t= turtle.Turtle
-t.fd(200)
-t.forward(50)
-t.lt(30)
-t.forward(35)
+t.penup()
+t.goto(-200,200)
+for i in range(30):
+    t.left(10)
+
+t.goto(200,200)
+for i in range(30):
+    t.left(10)
+
+t.goto(200,-200)
+for i in range(30):
+    t.left(10)
+
+t.goto(-200,-200)
+for i in range(30):
+    t.left(10)
